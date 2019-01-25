@@ -42,6 +42,7 @@ for (let elem of arr) {
 				* console.log (Math.random());
 				* Math.random()*50;
 	arrondi : 	* Math.floor(Math.random()*50)
+				* Math.round
 * camelcasing
 		ex. : myName.Uppercased
 * var myName 	= 'Arya'
@@ -59,7 +60,7 @@ for (let elem of arr) {
 	+=
 	-=
 	*=
-	/= : //
+	/=
 * Increment operator : ++, --
 * operator "+" can combine two strings
 * insert or interpolate variable into strings using `template literals`
@@ -116,7 +117,6 @@ Logical operators
 
 	// Prints 'Papayas are $1.29'
 
-	```
 # Fonctions
 
 Specific task multiple times. 

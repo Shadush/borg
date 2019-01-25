@@ -90,7 +90,7 @@ git reset 	HEAD : dernier commit
 			HEAD^^ : avant-avant-dernier commit ;
 			HEAD~2 : avant-avant-dernier commit (notation équivalente) ;
 			111 : numéro de commit précis
-git reset --hard HEAD^   /!\ Annule les commits et perd tous les changements
+- git reset --hard HEAD^   /!\ Annule les commits et perd tous les changements
 
 
 git checkout : anuler les modifications d'un fichier avant un commit
