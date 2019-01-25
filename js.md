@@ -70,18 +70,21 @@ for (let elem of arr) {
 # Conditions Statements
 
 * if
+```
 	if (true) {
 		console.log('xx');
 	}	else {
 		console.log('xx');
 	}
-*	< : less than
-	> : greater than
-	<= : less than or equal to
-	>= : greater than or equal to
-	=== : is equal to
-	!== : is not equal to
-		-> yes = true 	no = false
+```
+*	
+	* < : less than
+	* > : greater than
+	* <= : less than or equal to
+	* >= : greater than or equal to
+	* === : is equal to
+	* !== : is not equal to
+		* -> yes = true 	no = false
 Logical operators	
 	&& : and
 	|| : or
