@@ -102,9 +102,9 @@
 - git push origin master
 - git push -u origin master
 
-gaa
-gcmsg
-gpom="git push origin master"
+- gaa
+- gcmsg
+- gpom="git push origin master"
 
 ## Kerberos
 - klist

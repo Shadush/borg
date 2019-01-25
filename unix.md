@@ -112,10 +112,10 @@
 
 ## Droits
 - chmod : droits
-- 	r : read 				- 4
-	w : write 				- 2
-	x : exécuter			- 1
-	0 : pas de permissions 	- 0
+	* r : read 				- 4
+	* w : write 				- 2
+	* x : exécuter			- 1
+	* 0 : pas de permissions 	- 0
 - 	(123) 		(123) 			(123)
 	vous		même groupe		reste
 - chmod 	000 : aucun droits pour personne

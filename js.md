@@ -14,7 +14,7 @@ for (let elem of arr) {
 
 * Commentaires : 
 				// pour une seule ligne
-				/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */
+			```	/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */ ```
 * Data types (7) : 
 				Primitive data : 	
 									- number : () -> sans ""
@@ -41,7 +41,7 @@ for (let elem of arr) {
 * Objets : 
 				* console.log (Math.random());
 				* Math.random()*50;
-	arrondi : 	* Math.floor(Math.random()*50)
+	* arrondi : 	* Math.floor(Math.random()* 50)
 				* Math.round
 * camelcasing
 		ex. : myName.Uppercased
@@ -57,15 +57,15 @@ for (let elem of arr) {
 	if not declared with a value -> SyntaxError
 * parseInt() converts a string to a number
 * 
-	+=
-	-=
-	*=
-	/=
+	* +=
+	* -=
+	* *=
+	* /=
 * Increment operator : ++, --
 * operator "+" can combine two strings
 * insert or interpolate variable into strings using `template literals`
-	Phase 	${MyPet}
-			-> placeholder
+	* Phase 	${MyPet}
+				-> placeholder
 *typeof operator : checks the value to its right and returns or passes back a string of datatype
 # Conditions Statements
 
@@ -85,7 +85,7 @@ for (let elem of arr) {
 	* === : is equal to
 	* !== : is not equal to
 		* -> yes = true 	no = false
-Logical operators	
+## Logical operators	
 	&& : and
 	|| : or
 	! : not or the bang operator. Inverse
@@ -117,9 +117,9 @@ Logical operators
 	    console.log('Invalid item');
 	    break;
 	}
-
+	
 	// Prints 'Papayas are $1.29'
-
+	```
 # Fonctions
 
 Specific task multiple times. 
@@ -131,11 +131,13 @@ Reusable block of code that groups together a sequence of statements to perform 
 			greetworld : identifier
 * hoisting : allow access to function 
 * écrire une fonction avec "=>"
-	const square = (num) => {
+```	const square = (num) => {
 	return num*num;
 	}
-devient : 
+	```
+devient : ```
 	const square=num => num*num;
+			```
 * scopes defines : where variable can be accessed or referenced
 * arrays : []. Index start at zéro 0
 # Variables
@@ -150,18 +152,21 @@ devient :
 [][[x,x]]; const [] []
 
 * for ... of : iterate on arrays
+```
 	let arr = []
 	for (let elem of arr)
 		{
 			console.log("..." + elem + '?');
 		}
-
+```
 * Recursivity 
+```
 	function count (i) {
 	if (i <= 100) {
 	console.log(i);
 		count (i+1)
 	}
 }	
+```
 # Loops
 * While
