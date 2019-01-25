@@ -76,16 +76,16 @@
 - git show idcommit
 
 
-git init --bare : dépôt avec uniquement .
+- git init --bare : dépôt avec uniquement .
 
-git checkout -b ma-branche
+- git checkout -b ma-branche
 
-git log -p : détails des lignes modifiées
-git log --stat : résumé
-git commit --amend : corriger commentaire
+- git log -p : détails des lignes modifiées
+- git log --stat : résumé
+- git commit --amend : corriger commentaire
 
 
-git reset 	HEAD : dernier commit
+- git reset 	HEAD : dernier commit
 			HEAD^ : avant-dernier commit ;
 			HEAD^^ : avant-avant-dernier commit ;
 			HEAD~2 : avant-avant-dernier commit (notation équivalente) ;
@@ -93,10 +93,10 @@ git reset 	HEAD : dernier commit
 - git reset --hard HEAD^   /!\ Annule les commits et perd tous les changements
 
 
-git checkout : anuler les modifications d'un fichier avant un commit
-git reset HEAD -- fichier_a_supprimer : annuler, supprimer un fichier avant un commit
-git pull : télécharger les nouveautés
-git revert 111
+- git checkout : anuler les modifications d'un fichier avant un commit
+- git reset HEAD -- fichier_a_supprimer : annuler, supprimer un fichier avant un commit
+- git pull : télécharger les nouveautés
+- git revert 111
 
 - git remote add origin url_serveur
 - git push origin master
