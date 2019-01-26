@@ -38,7 +38,7 @@
 	body {font-size:12px;}
 }
 ```
-	- remarque : 	-> and = operator
+- remarque : 	-> and = operator
 
 - @media : how to parse the rest of the rul
 - only : screen or handled

@@ -18,9 +18,11 @@
 			 * -a (-m) : à la volée
 - git add "\*.txt"
 - git add --all
-- .gitignore : ```	*.tmp
+- .gitignore : ```git 
+				*.tmp
 				file
-				dossier/* ```
+				dossier/* 
+				```
 - git log 
 		--stat : résumé
 		-n 2
