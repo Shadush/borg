@@ -18,7 +18,7 @@
 			 * -a (-m) : à la volée
 - git add "\*.txt"
 - git add --all
-- .gitignore : ```git 
+- .gitignore : ```
 				*.tmp
 				file
 				dossier/* 

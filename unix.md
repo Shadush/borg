@@ -19,7 +19,7 @@
 
 ## Commandes
 - 	man : manuel
-- 		+ commande : exemple : man ls
+	- \+ commande : exemple : man ls
 - 	man man
 - "q" pour sortir du manuel
 - exit
@@ -119,10 +119,11 @@
 	* 0 : pas de permissions 	- 0
 - 	(123) 		(123) 			(123)
 	vous		même groupe		reste
-- chmod 	000 : aucun droits pour personne
-			700 : moi et le reste rien
-			644 : juste le lire pour le reste
-			-> texte, pas besoin d'exécuter, ce n'est pas du binaire
+- chmod 	
+			* 000 : aucun droits pour personne
+			* 700 : moi et le reste rien
+			* 644 : juste le lire pour le reste
+				* -> texte, pas besoin d'exécuter, ce n'est pas du binaire
 
 
 
