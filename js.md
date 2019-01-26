@@ -41,8 +41,9 @@ for (let elem of arr) {
 			- .trim
 * Objets : 
 				* console.log (Math.random());
-				* Math.random()*50;
-	* arrondi : * Math.floor(Math.random()*50)
+				* Math.random()\*50;
+	* arrondi : 
+				* Math.floor(Math.random()\*50)
 				* Math.round
 * camelcasing
 		- ex. : myName.Uppercased
@@ -60,14 +61,14 @@ for (let elem of arr) {
 * 
 	* +=
 	* -=
-	* *=
+	* \*=
 	* /=
 * Increment operator : ++, --
 * operator "+" can combine two strings
 * insert or interpolate variable into strings using `template literals`
 	* Phase 	${MyPet}
 				-> placeholder
-*typeof operator : checks the value to its right and returns or passes back a string of datatype
+* typeof operator : checks the value to its right and returns or passes back a string of datatype
 # Conditions Statements
 
 * if
@@ -136,9 +137,10 @@ Reusable block of code that groups together a sequence of statements to perform 
 	return num*num;
 	}
 	```
-devient : ```
+devient :
+```
 	const square=num => num*num;
-			```
+```
 * scopes defines : where variable can be accessed or referenced
 * arrays : []. Index start at zéro 0
 # Variables

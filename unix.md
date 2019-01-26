@@ -85,7 +85,7 @@
 - bc : calculatrice
 	echo "1+2"|bc
 - find
-	- find /usr -name "ls*" : trouver tous les fichires dans /usr qui commaence par ls
+	- find /usr -name "ls\*" : trouver tous les fichires dans /usr qui commaence par ls
 	- où / quoi / que faire avec
 	- find -name "logo.png"
 	- size +10M

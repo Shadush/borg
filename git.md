@@ -2,7 +2,8 @@
 - git help config * 
 				* --global
 				*	--local
-- variable : 	* user.email
+- variable : 	
+				* user.email
 				* user.name
 - git config --global user.email "@"
 - git config --global user.name "name"
@@ -15,7 +16,7 @@
 			 * --ammend : corriger commentaire
 			 * -m "message" : raccourci pour aller plus vite
 			 * -a (-m) : à la volée
-- git add "*.txt"
+- git add "\*.txt"
 - git add --all
 - .gitignore : ```	*.tmp
 				file

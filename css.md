@@ -1,13 +1,13 @@
 ## Typography
 - Justification : 65 caractères
-- Width : taille de la police*30
+- Width : taille de la police\*30
 - Interligne : police+ 2 à 5
 	- ligne-height : 
 - blockquote : text-indent : -0,8em
 - em = 20px
 
 ## CSS
-[Blocks](ressources/css-block.png)
+![Blocks](ressources/css-block.png)
 	- le bloc bleu est le contenu
 - margin : 
 			- next element
@@ -27,7 +27,7 @@
 - flex-wrap ; no child element move (wrap)
 - justify-content : center
 - position : relative, static, absolute, fixed
-	- top, left, right, bottim : **px
+	- top, left, right, bottim : \*\*px
 - font-size :
 	- em : 16px de base
 	- rem
@@ -53,7 +53,8 @@
 - body : display : grid
 		- grid-template-colums: 30% auto
 		- grid-template-rows : 60px auto 60px;
-		- grid-template-areas : - "hd hd"
+		- grid-template-areas : 
+								- "hd hd"
 								- "sid sid"
 								- "fo fo"
 - header : grid-area : hd;
@@ -70,8 +71,8 @@
 
 
 ## Boostrap : 12-colum grid 
-			[GRID](ressources/grid.svg)
-- Screen sizes : [Screen Sizes](ressources/screen-sizes.png)
+			![GRID](ressources/grid.svg)
+- Screen sizes : ![Screen Sizes](ressources/screen-sizes.png)
 
 ## HTML
 - "&copy" = ©
