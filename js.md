@@ -1,4 +1,4 @@
-* bibli: const readlineSync = require("readline-sync");
+* bibli: ``` const readlineSync = require("readline-sync"); ```
 ```
 let userName = readlineSync.question('Can you give me your name please?');
 
@@ -13,48 +13,49 @@ for (let elem of arr) {
 * console.log();
 
 * Commentaires : 
-				// pour une seule ligne
+			```	// pour une seule ligne ```
 			```	/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */ ```
 * Data types (7) : 
-				Primitive data : 	
+				- Primitive data : 	
 									- number : () -> sans ""
 									- string : "..." or '...'
 									- Bolean : true or false
 									- null : intentional absence of value
 									- undefined : absence of value
 									- symbol : unique identifier
-				Complex : 			- Object : collections of related data
+				- Complex : 		- Object : collections of related data
 * Opérations arithmétiques : 
-							+
-							-
-							*
-							/ : division //
-							% : remainder, reste, modulo
+							- +
+							- -
+							- *
+							- / : division
+							- % : remainder, reste, modulo
 * Concatenation : appending one string to another
 * Proprety : 
-		length
-			console.log('Hello'.lenght);
-								. -> dot operator
-* Methods : instance.methodname()
-			.toUpperCase
-			.trim
+		- length
+			- console.log('Hello'.lenght);
+								 . -> dot operator
+* Methods : 
+			- instance.methodname()
+			- .toUpperCase
+			- .trim
 * Objets : 
 				* console.log (Math.random());
 				* Math.random()*50;
-	* arrondi : 	* Math.floor(Math.random()* 50)
+	* arrondi : * Math.floor(Math.random()*50)
 				* Math.round
 * camelcasing
-		ex. : myName.Uppercased
+		- ex. : myName.Uppercased
 * var myName 	= 'Arya'
 				-> assignement operator. Variable is initialized witg a value of 'Arya'
 	* /!\ : pas commencer avec un nombre //
 	* case sensitive
 	* cannot be the same as keywords
 * let variable = "xxx"
-				can be assigned to a different value
+			 - can be assigned to a different value
 * on peut utiliser une variable sans rien -> "undefined"
 * const (constant) var. Cannot be reassigned (or else TypeError)
-	if not declared with a value -> SyntaxError
+	- if not declared with a value -> SyntaxError
 * parseInt() converts a string to a number
 * 
 	* +=
@@ -86,9 +87,9 @@ for (let elem of arr) {
 	* !== : is not equal to
 		* -> yes = true 	no = false
 ## Logical operators	
-	&& : and
-	|| : or
-	! : not or the bang operator. Inverse
+	* && : and
+	* || : or
+	* ! : not or the bang operator. Inverse
 * while
 * for : 3 expressions seperate by ;
 	init ; stopping condition ; itertation to update

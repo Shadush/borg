@@ -1,29 +1,31 @@
 - git init
-- git help config * --global
-					--local
-- variable : 	user.email
-				user.name
+- git help config * 
+				* --global
+				*	--local
+- variable : 	* user.email
+				* user.name
 - git config --global user.email "@"
 - git config --global user.name "name"
 - git config --global colir.ui true
 - git config --list
 
 - git status
-(stager) - git add file
+- git add file : (stager)
 - git commit
-			 --ammend : corriger commentaire
-			 -m "message" : raccourci pour aller plus vite
-			 -a (-m) : à la volée
+			 * --ammend : corriger commentaire
+			 * -m "message" : raccourci pour aller plus vite
+			 * -a (-m) : à la volée
 - git add "*.txt"
 - git add --all
-- .gitignore :	*.tmp
+- .gitignore : ```	*.tmp
 				file
-				dossier/*
+				dossier/* ```
 - git log 
 		--stat : résumé
 		-n 2
 - git log --online : sur une seule ligne
 - git log -p "chemin du fichier" : détails des lignes modifiés
+- git rm
 - ex : git log -p readme.md
 - git diff
 - git clone
@@ -47,8 +49,9 @@
 - git revert (pas utilisé)
 - git rebase (pas utilisé)
 
-- git branch	-d name : supprimer
-				-D name : annuler
+- git branch	
+				* -d name : supprimer
+				* -D name : annuler
 - git stash : mise à côté et sauvegardé
 - git stash apply : recup
 - git stash pop : vider stash
@@ -63,10 +66,11 @@
 - git push --tags : car ce n'est pas automatique
 - git tag -d NOMTAG : supprimer tag
 - git reset HEAD  : dernier commit
-- git reset 	^ : avant dernier commit
-				^^ : avant avant dernier commit
-				-2 : avant avant dernier commit (notation)
-			--hard HEAD^ : annule les commits et perd tous les changements
+- git reset 	
+				* ^ : avant dernier commit
+				* ^^ : avant avant dernier commit
+				* -2 : avant avant dernier commit (notation)
+			* --hard HEAD^ : annule les commits et perd tous les changements
 - git grep "à chercher"
 - git grep -n "x" avec le numéro de ligne
 
@@ -74,7 +78,6 @@
 				gvimdiff
 - git blame fichier
 - git show idcommit
-
 
 - git init --bare : dépôt avec uniquement .
 
@@ -84,14 +87,12 @@
 - git log --stat : résumé
 - git commit --amend : corriger commentaire
 
-
 - git reset 	HEAD : dernier commit
-			HEAD^ : avant-dernier commit ;
-			HEAD^^ : avant-avant-dernier commit ;
-			HEAD~2 : avant-avant-dernier commit (notation équivalente) ;
-			111 : numéro de commit précis
+			* HEAD^ : avant-dernier commit ;
+			* HEAD^^ : avant-avant-dernier commit ;
+			* HEAD~2 : avant-avant-dernier commit (notation équivalente) ;
+			* 111 : numéro de commit précis
 - git reset --hard HEAD^   /!\ Annule les commits et perd tous les changements
-
 
 - git checkout : anuler les modifications d'un fichier avant un commit
 - git reset HEAD -- fichier_a_supprimer : annuler, supprimer un fichier avant un commit
@@ -101,7 +102,7 @@
 - git remote add origin url_serveur
 - git push origin master
 - git push -u origin master
-
+## Raccourcis
 - gaa
 - gcmsg
 - gpom="git push origin master"
