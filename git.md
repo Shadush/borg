@@ -32,6 +32,7 @@
 - git clone
 - git push (ne pas oublier la destination lors du 1er push : "origin master" par exemple)
 - git pull
+	- git pull origin master
 - git checkout : annule les changements
 - git checkout HEAD filename : annule changements
 - git reset HEAD filename : unstage

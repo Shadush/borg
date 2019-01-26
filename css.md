@@ -8,7 +8,7 @@
 
 ## CSS
 ![Blocks](ressources/css-block.png)
-	- le bloc bleu est le contenu
+- le bloc bleu est le contenu
 - margin : 
 			- next element
 			- top, bottom, left, right
@@ -33,7 +33,7 @@
 	- rem
 - IMG  : 	- overflow : hidden;
 			- background-size: cover;
-```
+```css
 @media only screen and (max-width:480px){
 	body {font-size:12px;}
 }

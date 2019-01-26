@@ -141,8 +141,7 @@ const square = (num) => {
 devient :
 
 ```javascript	
-
-	const square=num => num*num;
+const square=num => num*num;
 ```
 * scopes defines : where variable can be accessed or referenced
 * arrays : []. Index start at zéro 0
