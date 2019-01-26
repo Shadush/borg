@@ -133,12 +133,14 @@ Reusable block of code that groups together a sequence of statements to perform 
 			greetworld : identifier
 * hoisting : allow access to function 
 * écrire une fonction avec "=>"
-```	const square = (num) => {
+```javascript	
+const square = (num) => {
 	return num*num;
 	}
 	```
 devient :
-```
+```javascript	
+
 	const square=num => num*num;
 ```
 * scopes defines : where variable can be accessed or referenced
