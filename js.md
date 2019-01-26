@@ -137,8 +137,9 @@ Reusable block of code that groups together a sequence of statements to perform 
 const square = (num) => {
 	return num*num;
 	}
-	```
+```
 devient :
+
 ```javascript	
 
 	const square=num => num*num;
@@ -157,7 +158,7 @@ devient :
 [][[x,x]]; const [] []
 
 * for ... of : iterate on arrays
-```
+```javascript	
 	let arr = []
 	for (let elem of arr)
 		{
@@ -165,7 +166,7 @@ devient :
 		}
 ```
 * Recursivity 
-```
+```javascript	
 	function count (i) {
 	if (i <= 100) {
 	console.log(i);
