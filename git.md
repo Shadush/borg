@@ -1,5 +1,8 @@
+GIT est un gestionnaire de versions qui vous permet de travailler sur
+vos projets tout en gardant un historique de vos modifications. Et bien,
+bien plus encore.
 - git init
-- git help config * 
+- git help config \* 
 				* --global
 				*	--local
 - variable : 	
@@ -18,7 +21,8 @@
 			 * -a (-m) : à la volée
 - git add "\*.txt"
 - git add --all
-- .gitignore : ```
+- .gitignore :
+         ```
 				*.tmp
 				file
 				dossier/* 
