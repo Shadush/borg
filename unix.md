@@ -44,13 +44,20 @@
 		* cat FILE | grep "x" | head -n 1
 		* cat file file 2> erreurs.txt : mettre toutes les erreurs dans ce fichier
 		* cat file file file azert > /dev/null : effacer
+#Flux de redirection
 - echo "x" 	
 			* > file : crée (s'il n'existe pas ou remplace s'il existe)
 			* >> file : crée ou rajoute à la fin du fichier
 			* 2> file : erreurs dans un fichier à part
-			* 2>&1
-			* 2>>&1
-
+			* 2>&1 : fussioner les sorties standard et d'erreur
+			* 2>>&1 : la même chose mais à la fin du fichierS
+- cat < fichier.txt  : flux entrant. Permet d\'afficher le contenu du
+  fichier
+  - à la différence de `cat fichier.txt` où la commande cat recoit en
+    entrée le nom du fichier et se charge de l'ouvrir et l'affichier.
+    Ici la commande `cat` reçoit le *contenu* de fichier.txt qu'elle
+    contente simplement d'afficher. C'est le shell qui envoie le contenu du
+    fichier à la commande cat.
 - cp : copier
 	* cp SOURCE DESTINATION
 - mv : déplacer

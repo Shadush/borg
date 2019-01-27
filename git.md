@@ -3,11 +3,11 @@ vos projets tout en gardant un historique de vos modifications. Et bien,
 bien plus encore.
 - git init
 - git help config \* 
-				* --global
-				*	--local
+	* --global
+	*	--local
 - variable : 	
-				* user.email
-				* user.name
+	* user.name
+	* user.email
 - git config --global user.email "@"
 - git config --global user.name "name"
 - git config --global colir.ui true
