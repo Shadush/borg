@@ -75,10 +75,10 @@ bien plus encore.
 - git tag -d NOMTAG : supprimer tag
 - git reset HEAD  : dernier commit
 - git reset 	
-				* ^ : avant dernier commit
-				* ^^ : avant avant dernier commit
-				* -2 : avant avant dernier commit (notation)
-			* --hard HEAD^ : annule les commits et perd tous les changements
+  * ^ : avant dernier commit
+	* ^^ : avant avant dernier commit
+	* -2 : avant avant dernier commit (notation)
+	* --hard HEAD^ : annule les commits et perd tous les changements
 - git grep "à chercher"
 - git grep -n "x" avec le numéro de ligne
 
@@ -96,10 +96,10 @@ bien plus encore.
 - git commit --amend : corriger commentaire
 
 - git reset 	HEAD : dernier commit
-			* HEAD^ : avant-dernier commit ;
-			* HEAD^^ : avant-avant-dernier commit ;
-			* HEAD~2 : avant-avant-dernier commit (notation équivalente) ;
-			* 111 : numéro de commit précis
+  * HEAD^ : avant-dernier commit ;
+	* HEAD^^ : avant-avant-dernier commit ;
+  * HEAD~2 : avant-avant-dernier commit (notation équivalente) ;
+  * 111 : numéro de commit précis
 - git reset --hard HEAD^   /!\ Annule les commits et perd tous les changements
 
 - git checkout : anuler les modifications d'un fichier avant un commit
