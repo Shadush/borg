@@ -44,7 +44,7 @@
 		* cat FILE | grep "x" | head -n 1
 		* cat file file 2> erreurs.txt : mettre toutes les erreurs dans ce fichier
 		* cat file file file azert > /dev/null : effacer
-#Flux de redirection
+## Flux de redirection
 - echo "x" 	
 			* > file : crée (s'il n'existe pas ou remplace s'il existe)
 			* >> file : crée ou rajoute à la fin du fichier
@@ -58,6 +58,14 @@
     Ici la commande `cat` reçoit le *contenu* de fichier.txt qu'elle
     contente simplement d'afficher. C'est le shell qui envoie le contenu du
     fichier à la commande cat.
+
+- << : permet d'envoyer du contenu à une commande
+	```
+	$ wc -m << FIN
+> Combien de caractères dans cette phrase ?
+> FIN
+42
+```
 - cp : copier
 	* cp SOURCE DESTINATION
 - mv : déplacer
