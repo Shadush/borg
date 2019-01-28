@@ -127,6 +127,7 @@ for (let elem of arr) {
 Specific task multiple times. 
 	INPUT & OUTPUT
 Reusable block of code that groups together a sequence of statements to perform specific task.
+In JavaScript, functions are first class objects, this means that like other objects you've encountered, JavaScript functions can have properties and methods. 
 * function declaration : binds a fonction to a name
 		function greetworld { ... }
 			function : function keyword
@@ -175,3 +176,29 @@ const square=num => num*num;
 ```
 # Loops
 * While
+* Do While : do it at least once then loop until condition met
+```javascript
+let countString = '';
+let i = 0;
+
+do {
+  countString = countString + i;
+  i++;
+} while (i < 5);
+
+console.log(countString);
+```
+* break : keyword allows programs to “break” out of the loop from within the loop's block.
+
+# Higher-order functions
+> Higher-order functions are functions that accept other functions as arguments and/or return functions as output.
+
+```javascript
+const announceThatIAmDoingImportantWork = () => {
+    console.log("I’m doing very important work!");
+	};
+const busy = announceThatIAmDoingImportantWork;
+
+busy();
+```
+* 
