@@ -152,14 +152,18 @@ const square=num => num*num;
 # Proprety
 * .length : number of items
 * .pop : remove last item
+* .push : rajoute à la fin
 * update une array -> variable [3] = 'mot';
 * parseInt(); renvoi un entier
+* `...`
+	* rest parameter
+	* spread operator
 # Nested Array
 [][[x,x]]; const [] []
 
 * for ... of : iterate on arrays
 ```javascript	
-	let arr = []
+	let arr = [];
 	for (let elem of arr)
 		{
 			console.log("..." + elem + '?');
