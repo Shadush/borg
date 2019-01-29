@@ -1,4 +1,4 @@
-* bibli: ``` const readlineSync = require("readline-sync"); ```
+* bibli: `const readlineSync = require("readline-sync");`
 ```javascript
 let userName = readlineSync.question('Can you give me your name please?');
 
