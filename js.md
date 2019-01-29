@@ -1,14 +1,14 @@
 * bibli: `const readlineSync = require("readline-sync");`
 ```javascript
-let userName = readlineSync.question('Can you give me your name please?');
+	let userName = readlineSync.question('Can you give me your name please?');
 
-let arr = ["Apple", "Pear", "Banana"];
+	let arr = ["Apple", "Pear", "Banana"];
 
-for (let elem of arr) {
-  console.log("Do you want to eat a " + elem + "?");
-}
+	for (let elem of arr) {
+	  console.log("Do you want to eat a " + elem + "?");
+	}
 ```
-
+<hr>
 * console.log();
 
 * Commentaires : 
@@ -71,7 +71,7 @@ for (let elem of arr) {
 # Conditions Statements
 
 * if
-```
+```javascript
 	if (true) {
 		console.log('xx');
 	}	else {
@@ -101,7 +101,7 @@ for (let elem of arr) {
 * ternary operator : variable ? console.log('true') : console.log('else');
 * else if : before else. Allow multiple outcomes, scenarios.
 * Switch : 
-	```
+	```javascript
 	let groceryItem = 'papaya';
 
 	switch (groceryItem) {
