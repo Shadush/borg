@@ -8,13 +8,12 @@ for (let elem of arr) {
   console.log("Do you want to eat a " + elem + "?");
 }
 ```
-<hr>
 
 * console.log();
 
 * Commentaires : 
-			```	// pour une seule ligne ```
-			```	/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */ ```
+			`// pour une seule ligne `
+			`/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */`
 * Data types (7) : 
 				- Primitive data : 	
 									- number : () -> sans ""
