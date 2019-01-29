@@ -158,10 +158,10 @@ const square=num => num*num;
 * `...`
 	* rest parameter : collect all remaining elements into an array
 	* spread operator : allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements
-		* ```javascript 
+		* ` 
 		const arr = ["Joy", "Wangari", "Warugu"];
 		const newArr = ["joykare", ...arr]; 
-		```
+		`
 # Nested Array
 [][[x,x]]; const [] []
 
