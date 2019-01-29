@@ -1,7 +1,7 @@
 # Terminal
 ## Coventions
 - $ : utilisateur avec droits normaux
-- # : droits root
+- \# : droits root
 - ordre : taille, permissions, date
 - droits : groupe, utilisateur, timestamp, nom
 - convention : COMMAND + FICHIER + 	PARAMÈTRE(S)
@@ -9,7 +9,7 @@
 									* -a -b : plusieurs paramètres l'un après les autres
 									* -ab : combiner plusieurs paramètres
 									* --gelp : paramètres de plusieurs lettres demande deux tirets (-)
-- | = pipe pour combiner des commandes
+- \| = pipe pour combiner des commandes
 - arborescence : /
 	* ~/ : home directory
 - d : répértoire
@@ -60,16 +60,16 @@
     fichier à la commande cat.
 
 - << : permet d'envoyer du contenu à une commande
-	```
+```
 	$ wc -m << FIN
-> Combien de caractères dans cette phrase ?
-> FIN
-42
+	> Combien de caractères dans cette phrase ?
+	> FIN
+	42
 ```
 - cp : copier
 	* cp SOURCE DESTINATION
 - mv : déplacer
-- tar -cf file.tar file || tar -cf file.tar *
+- `tar -cf file.tar file || tar -cf file.tar *`
 - ln : lien
 - echo
 - more
@@ -81,7 +81,7 @@
 	* -i ; variable lettre
 - sort
 - cut : couper chaque ligne
-- cat FILE | sort | cut -d, -f 1 | cat -e
+- `cat FILE | sort | cut -d, -f 1 | cat -e`
 - sed "chemin" : modif
 - tr "é" "e" : remplacer
 - wc : compter. ligne mots caractère

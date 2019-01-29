@@ -12,8 +12,8 @@
 * console.log();
 
 * Commentaires : 
-			`// pour une seule ligne `
-			`/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */`
+	* `// pour une seule ligne `
+	* `/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */`
 * Data types (7) : 
 				- Primitive data : 	
 									- number : () -> sans ""
@@ -134,14 +134,14 @@ In JavaScript, functions are first class objects, this means that like other obj
 * hoisting : allow access to function 
 * écrire une fonction avec "=>"
 ```javascript	
-const square = (num) => {
-	return num*num;
-	}
+	const square = (num) => {
+		return num*num;
+		}
 ```
 devient :
 
 ```javascript	
-const square=num => num*num;
+	const square=num => num*num;
 ```
 * scopes defines : where variable can be accessed or referenced
 * arrays : []. Index start at zéro 0
@@ -157,10 +157,9 @@ const square=num => num*num;
 * `...`
 	* rest parameter : collect all remaining elements into an array
 	* spread operator : allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements
-		* `const arr = ["Joy", "Wangari", "Warugu"];
-		const newArr = ["joykare", ...arr];`
+		* `const arr = ["Joy", "Wangari", "Warugu"]; const newArr = ["joykare", ...arr];`
 # Nested Array
-[][[x,x]]; const [] []
+* `[][[x,x]]; const [] []`
 
 * for ... of : iterate on arrays
 ```javascript	
@@ -183,15 +182,15 @@ const square=num => num*num;
 * While
 * Do While : do it at least once then loop until condition met
 ```javascript
-let countString = '';
-let i = 0;
+	let countString = '';
+	let i = 0;
 
-do {
-  countString = countString + i;
-  i++;
-} while (i < 5);
+	do {
+	  countString = countString + i;
+	  i++;
+	} while (i < 5);
 
-console.log(countString);
+	console.log(countString);
 ```
 * break : keyword allows programs to “break” out of the loop from within the loop's block.
 
@@ -199,11 +198,11 @@ console.log(countString);
 > Higher-order functions are functions that accept other functions as arguments and/or return functions as output.
 
 ```javascript
-const announceThatIAmDoingImportantWork = () => {
-    console.log("I’m doing very important work!");
-	};
-const busy = announceThatIAmDoingImportantWork;
+	const announceThatIAmDoingImportantWork = () => {
+	    console.log("I’m doing very important work!");
+		};
+	const busy = announceThatIAmDoingImportantWork;
 
-busy();
+	busy();
 ```
 * 
