@@ -86,7 +86,7 @@
 - tr "é" "e" : remplacer
 - wc : compter. ligne mots caractère
 	* wc *
-	* cat FILE | grep Thomas | wc -l
+	* `cat FILE | grep Thomas | wc -l`
 - file FILE
 	- notes.txt: UTF-8 Unicode text
 		- notes : à l'état
@@ -150,7 +150,7 @@
 - quitter : crtl+x, ctrl+c
 - save : ctrl+x, ctrl+s
 - back : ctrl+z -> fg
-- ligne : ctrl+E | A
+- `ligne : ctrl+E | A`
 - recherche : ctrl+S
 - ouvrri un fichier : ctrl+x, ctrl+f
 - split : ctrl+X 2 ou ctrl+X 3

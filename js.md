@@ -85,11 +85,11 @@
 	* >= : greater than or equal to
 	* === : is equal to
 	* !== : is not equal to
-		* -> yes = true 	no = false
+		* -> yes = true, no = false
 ## Logical operators	
-	* && : and
-	* || : or
-	* ! : not or the bang operator. Inverse
+* && : and
+* `|| : or`
+* ! : not or the bang operator. Inverse
 * while
 * for : 3 expressions seperate by ;
 	init ; stopping condition ; itertation to update
@@ -158,7 +158,7 @@ devient :
 	* rest parameter : collect all remaining elements into an array
 	* spread operator : allows iterables( arrays / objects / strings ) to be expanded into single arguments/elements
 		* `const arr = ["Joy", "Wangari", "Warugu"]; const newArr = ["joykare", ...arr];`
-# Nested Array
+## Nested Array
 * `[][[x,x]]; const [] []`
 
 * for ... of : iterate on arrays
