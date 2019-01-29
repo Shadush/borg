@@ -143,6 +143,19 @@ devient :
 ```javascript	
 	const square=num => num*num;
 ```
+```javascript
+let myFunction = (a, b) => {
+  return a + b;
+}
+
+console.log(myFunction(2, 3)); // 5
+
+myFunction = (a, b) => {
+  return a * b;
+}
+
+console.log(myFunction(2, 3)); // 6
+```
 * scopes defines : where variable can be accessed or referenced
 * arrays : []. Index start at zéro 0
 # Variables
@@ -169,7 +182,7 @@ devient :
 			console.log("..." + elem + '?');
 		}
 ```
-* Recursivity 
+* Recursivity : a fonction calls itself
 ```javascript	
 	function count (i) {
 	if (i <= 100) {
