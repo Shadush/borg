@@ -43,6 +43,7 @@ bien plus encore.
 - git checkout HEAD filename : annule changements
 - git reset HEAD filename : unstage
 - git reset commit_sha : reset
+- git rm -r --cached . : vider le tree
 - git branch title
 - git branch
 - git checkout -b branch_name

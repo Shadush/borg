@@ -166,6 +166,7 @@ console.log(myFunction(2, 3)); // 6
 * .pop : remove last item
 * .push : rajoute à la fin
 * update une array -> variable [3] = 'mot';
+* new Array
 * parseInt(); renvoi un entier
 * `...`
 	* rest parameter : collect all remaining elements into an array
