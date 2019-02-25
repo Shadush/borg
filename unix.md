@@ -45,7 +45,7 @@
 		* cat file file 2> erreurs.txt : mettre toutes les erreurs dans ce fichier
 		* cat file file file azert > /dev/null : effacer
 ## Flux de redirection
-- echo "x" 	
+- echo "x"
 			* > file : crée (s'il n'existe pas ou remplace s'il existe)
 			* >> file : crée ou rajoute à la fin du fichier
 			* 2> file : erreurs dans un fichier à part
@@ -121,7 +121,7 @@
 
 - faire un : alias ll="ls -lArth"
 	* Pour le rendre permanent, modifier le fichier et relancer votre terminal :
-	* Bash (par défaut sur Ubuntu) : ~/.bashrc 
+	* Bash (par défaut sur Ubuntu) : ~/.bashrc
 	* ZSH : ~/.zshrc
 
 
@@ -134,7 +134,7 @@
 	* 0 : pas de permissions 	- 0
 - 	(123) 		(123) 			(123)
 	vous		même groupe		reste
-- chmod 	
+- chmod
 			* 000 : aucun droits pour personne
 			* 700 : moi et le reste rien
 			* 644 : juste le lire pour le reste
@@ -210,3 +210,9 @@
         * 'is'  'incsearch'   pour montrer les appariements partiels.
         * 'hls' 'hlsearch'    pour mettre en surbrillance les appariements.
 * :débutdecommande - CTRL+D pour suggestions
+
+## Exemples
+- `rename -n 's/.+/our $i; sprintf("a%d.jpg", 1+$i++)/e' *`
+- `find . -type d -maxdepth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull origin master \;`
+- `lk='stat -c "%a %n" *'`
+- lm="ls -lArth"

@@ -1,0 +1,604 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"min",
+				"minlength\tAttr"
+			],
+			[
+				"bo",
+				"button\tTag"
+			],
+			[
+				"to",
+				"today"
+			],
+			[
+				"get",
+				"getItem"
+			],
+			[
+				"store",
+				"storeElement"
+			],
+			[
+				"idea",
+				"idea_one"
+			],
+			[
+				"crea",
+				"create_idea"
+			],
+			[
+				"inner",
+				"innerText"
+			],
+			[
+				"inn",
+				"innerHTML"
+			],
+			[
+				"edi",
+				"edit_selector"
+			],
+			[
+				"g",
+				"getItem"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"cre",
+				"createElement"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"modal",
+				"modal-body"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"que",
+				"querySelectorAll"
+			],
+			[
+				"pa",
+				"parentElement"
+			],
+			[
+				"cloe",
+				"closest"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"positio",
+				"background-position\tproperty"
+			],
+			[
+				"rec",
+				"rectangle1"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"rea",
+				"readlineSync"
+			],
+			[
+				"B",
+				"B2-B1"
+			],
+			[
+				"A2",
+				"A2-A1"
+			],
+			[
+				"a",
+				"arrMin"
+			],
+			[
+				"ran",
+				"rand10"
+			],
+			[
+				"par",
+				"para2"
+			],
+			[
+				"para",
+				"para1"
+			],
+			[
+				"arr",
+				"arr2"
+			],
+			[
+				"first",
+				"firstNumber"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"justif",
+				"justify-self"
+			],
+			[
+				"jus",
+				"justify-content\tproperty"
+			],
+			[
+				"flex",
+				"flex-wrap\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"text",
+				"text-justify"
+			],
+			[
+				"backgr",
+				"background-position\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"paddi",
+				"padding-right\tproperty"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"git a",
+				"Git: Add All"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control seet",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"Package Control.sublime-package",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/shadush/Code",
+		"/home/shadush/Code/bootcamp"
+	],
+	"file_history":
+	[
+		"/home/shadush/Code/docu/unix.md",
+		"/home/shadush/Code/bootstrap/bootstrap-4.3.1/package.json",
+		"/home/shadush/Code/bootcamp/HTML/styles/style.css",
+		"/home/shadush/Code/docu/js.md",
+		"/home/shadush/Téléchargements/02_SGBD_syllabus_théorie.doc",
+		"/home/shadush/Code/docu/sql.md",
+		"/home/shadush/Code/python/MOOC-ULB/UPYLAB 2.5.py",
+		"/home/shadush/license.cGHcXf",
+		"/home/shadush/.cache/.fr-mSLATP/Krigen.2015.720p.BRRip.x264.Danish.AAC-ETRG.srt",
+		"/home/shadush/Téléchargements/dsh_revenus_resident-NEW.doc",
+		"/home/shadush/Téléchargements/mots.dic",
+		"/home/shadush/Code/bootcamp/boilerplate.html",
+		"/media/sda2/Users/Soufian/Videos/Films/Prospect.2019.1080p.WEB-DL.DD5.1.H264-CMRG[EtHD]/Prospect.2018.720p.WEBRip.x264-[YTS.AM].srt",
+		"/media/sda2/Users/Soufian/Videos/Films/Prospect.2019.1080p.WEB-DL.DD5.1.H264-CMRG[EtHD]/Prospect.2018.1080p.WEBRip.x264-[YTS.AM].srt",
+		"/media/sda2/Users/Soufian/Videos/Films/films.txt",
+		"/home/shadush/Code/notes.md",
+		"/home/shadush/pia.txt",
+		"/home/shadush/.config/google-chrome/Default/Extensions/cjpalhdlnbpafiamejdnhcphjbkeiagm/1.18.4_0/assets/ublock/filters.txt",
+		"/home/shadush/Code/bootcamp/HTML/index.html",
+		"/home/shadush/.mozilla/firefox/ot864x24.default/browser-extension-data/uBlock0@raymondhill.net/storage.js",
+		"/home/shadush/.cache/.fr-5FJc8U/12_Blog_Solution/blog.html",
+		"/home/shadush/.cache/.fr-A3wpga/12_Blog_Solution/blog.css",
+		"/home/shadush/.cache/.fr-WfWXuy/07_ImageBlog1/imageLinks.html",
+		"/home/shadush/.cache/.fr-MqpuNl/09_Selector_Exercise_Starter/selectors.css",
+		"/home/shadush/Téléchargements/FormSolution.html",
+		"/home/shadush/.cache/.fr-lnlA49/pokemondata.txt",
+		"/home/shadush/Téléchargements/05_debian_theme",
+		"/home/shadush/Code/bootcamp/index.html",
+		"/home/shadush/PPAs.txt",
+		"/etc/bluetooth/main.conf",
+		"/home/shadush/Becode/notes.md",
+		"/home/shadush/.conkyrc",
+		"/home/shadush/conky.txt",
+		"/home/shadush/.conky/weather/weather.sh",
+		"/home/shadush/.conky/weather/weather.xslt",
+		"/home/shadush/.conky/Conky-Weather/start_weather.sh",
+		"/home/shadush/.conky/Conky-Weather/conky_config",
+		"/home/shadush/.conky/Conky-Weather/openweather.py",
+		"/home/shadush/.conky/Conky-Weather/settings.lua",
+		"/home/shadush/package-lock.json",
+		"/home/shadush/Becode/docu/unix.md",
+		"/home/shadush/Becode/Skills/haddouchi-soufian.md",
+		"/home/shadush/Becode/Skills/readme.md",
+		"/home/shadush/Becode/Skills/reussite.md",
+		"/home/shadush/Becode/Skills/yolo.md",
+		"/home/shadush/Becode/jepsen/code1/Readme.txt",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_22/readme.md",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_22/script.js",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_22/style.scss",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_22/index.njk",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_22/_common.njk",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_21/script.js",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_16/index.html",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_16/script.js",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_21/readme.md",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_21/index.njk",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_21/style.scss",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_16/style.scss",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_15/index.html",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_15/script.js",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_21/_common.njk",
+		"/home/shadush/Becode/jepsen/JS/js-web/second_serie/jsweb_21/.gitignore",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_17/index.html",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_17/style.scss",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_17/script.js",
+		"/home/shadush/Becode/jepsen/JS/jepsen-js-web-sunicorns/script.js",
+		"/home/shadush/Becode/jepsen/JS/jepsen-js-web-sunicorns/index.html",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_16/package.json",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_15/style.scss",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_15/docs/sansB/script.88290c98.css",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_15/docs/sansB/script.04d42da2.css",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_15/docs/sansB/script.3a44f0d4.css",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_15/_shared/scss/theme.scss",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_16/readme.md",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_17/readme.md",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_15/readme.md",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_15/.gitignore",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_14/script.js",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_14/index.html",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_14/readme.md",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_13/index.html",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_14/package.json",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_13/script.js",
+		"/home/shadush/Becode/jepsen/JS/jepsen-js-web-sunicorns/_shared/scss/_bootswatch.scss",
+		"/home/shadush/Becode/jepsen/JS/jepsen-js-web-sunicorns/_shared/scss/theme.scss",
+		"/home/shadush/Becode/jepsen/JS/jepsen-js-web-sunicorns/_shared/scss/_variables.scss",
+		"/home/shadush/Becode/jepsen/JS/jepsen-js-web-sunicorns/style.scss",
+		"/home/shadush/Becode/jepsen/JS/jepsen-js-web-sunicorns/readme.md",
+		"/home/shadush/Becode/jepsen/JS/jepsen-js-web-sunicorns/.gitignore",
+		"/home/shadush/Becode/jepsen/JS/jepsen-js-web-sunicorns/script2.js",
+		"/home/shadush/Becode/jepsen/JS/js-web/first_serie/jsweb_12/script.js"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"opex",
+			"col-lg-4",
+			"    <th>Image</th>\n  </thead>\n",
+			"ini",
+			"powe",
+			"power",
+			"weather",
+			"xoaprc",
+			"weather",
+			"µ",
+			"weather",
+			"html",
+			"test",
+			"array",
+			"carousel",
+			"preBuffer",
+			"flex",
+			" class=\"slides\"",
+			"x",
+			"slideIndex",
+			" w-100",
+			"style",
+			"createMO",
+			"setIt",
+			"une seule",
+			"let",
+			"rng",
+			"testPassed",
+			"len",
+			"array",
+			"=>",
+			"array",
+			"push",
+			"userday",
+			"fanta",
+			"font",
+			"color",
+			"resso",
+			"ignore",
+			"rm",
+			"ressouF",
+			"ressou",
+			"ip",
+			"average",
+			"arr",
+			"average",
+			"avera",
+			"typeE",
+			"$",
+			"head",
+			"tail",
+			"fin",
+			"ls",
+			"ls*",
+			"rev",
+			"vgs",
+			"diff",
+			"-b",
+			"strftime",
+			"time",
+			"date ",
+			"date",
+			"hours",
+			"date",
+			" date",
+			"date ",
+			"top ",
+			"top",
+			"memor",
+			"batter",
+			"BAT1",
+			"bat",
+			"lua",
+			"true",
+			"CPU",
+			"4",
+			"[",
+			"[​\\(.]​​",
+			"​\\(.*​​",
+			"[​\\(.*]​​",
+			"[​*]​​",
+			"style",
+			"max",
+			">",
+			"position",
+			"200px",
+			"example"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bouge",
+			"chatsArr",
+			"",
+			"chat",
+			"debut",
+			"",
+			"hasard",
+			"test",
+			"rand",
+			"dayy",
+			"BAT0",
+			"false",
+			"20rem",
+			"paumation"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 60.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "css-block.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
