@@ -2,10 +2,10 @@ GIT est un gestionnaire de versions qui vous permet de travailler sur
 vos projets tout en gardant un historique de vos modifications. Et bien,
 bien plus encore.
 - git init
-- git help config \* 
+- git help config \*
 	* --global
 	*	--local
-- variable : 	
+- variable :
 	* user.name
 	* user.email
 - git config --global user.email "@"
@@ -25,9 +25,9 @@ bien plus encore.
   ```
   *.tmp
   file
-  dossier/* 
+  dossier/*
   ```
-- git log 
+- git log
 		--stat : résumé
 		-n 2
 - git log --online : sur une seule ligne
@@ -58,7 +58,7 @@ bien plus encore.
 - git revert (pas utilisé)
 - git rebase (pas utilisé)
 
-- git branch	
+- git branch
 				* -d name : supprimer
 				* -D name : annuler
 - git stash : mise à côté et sauvegardé
@@ -75,7 +75,7 @@ bien plus encore.
 - git push --tags : car ce n'est pas automatique
 - git tag -d NOMTAG : supprimer tag
 - git reset HEAD  : dernier commit
-- git reset 	
+- git reset
   * ^ : avant dernier commit
 	* ^^ : avant avant dernier commit
 	* -2 : avant avant dernier commit (notation)
@@ -111,10 +111,12 @@ bien plus encore.
 - git remote add origin url_serveur
 - git push origin master
 - git push -u origin master
-## Raccourcis
+
+## Raccourcis (plugin git de Oh My Zsh)
 - gaa
 - gcmsg
-- gpom="git push origin master"
+- gpp = "git push origin $(current_branch)"
+- ggl = git pull origin current_branch
 
 ## Kerberos
 - klist

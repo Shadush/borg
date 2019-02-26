@@ -213,6 +213,8 @@
 
 ## Exemples
 - `rename -n 's/.+/our $i; sprintf("a%d.jpg", 1+$i++)/e' *`
+	- renommer des fichiers à la volée
 - `find . -type d -maxdepth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull origin master \;`
+	-	git pull tous les sous-dossiers
 - `lk='stat -c "%a %n" *'`
 - lm="ls -lArth"
