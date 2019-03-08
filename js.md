@@ -10,12 +10,12 @@
 ```
 <hr>
 * console.log();
-
-* Commentaires : 
+* console.dir(document); : affichier le DOM
+* Commentaires :
 	* `// pour une seule ligne `
 	* `/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */`
-* Data types (7) : 
-				- Primitive data : 	
+* Data types (7) :
+				- Primitive data :
 									- number : () -> sans ""
 									- string : "..." or '...'
 									- Bolean : true or false
@@ -23,25 +23,25 @@
 									- undefined : absence of value
 									- symbol : unique identifier
 				- Complex : 		- Object : collections of related data
-* Opérations arithmétiques : 
+* Opérations arithmétiques :
 							- +
 							- -
 							- *
 							- / : division
 							- % : remainder, reste, modulo
 * Concatenation : appending one string to another
-* Proprety : 
+* Proprety :
 		- length
 			- console.log('Hello'.lenght);
 								 . -> dot operator
-* Methods : 
+* Methods :
 			- instance.methodname()
 			- .toUpperCase
 			- .trim
-* Objets : 
+* Objets :
 				* console.log (Math.random());
 				* Math.random()\*50;
-	* arrondi : 
+	* arrondi :
 				* Math.floor(Math.random()\*50)
 				* Math.round
 * camelcasing
@@ -57,7 +57,7 @@
 * const (constant) var. Cannot be reassigned (or else TypeError)
 	- if not declared with a value -> SyntaxError
 * parseInt() converts a string to a number
-* 
+*
 	* +=
 	* -=
 	* \*=
@@ -78,7 +78,7 @@
 		console.log('xx');
 	}
 ```
-*	
+*
 	* < : less than
 	* > : greater than
 	* <= : less than or equal to
@@ -86,7 +86,7 @@
 	* === : is equal to
 	* !== : is not equal to
 		* -> yes = true, no = false
-## Logical operators	
+## Logical operators
 * && : and
 * `|| : or`
 * ! : not or the bang operator. Inverse
@@ -100,7 +100,7 @@
 	// si ce nest pas pen alors ce sera xx
 * ternary operator : variable ? console.log('true') : console.log('else');
 * else if : before else. Allow multiple outcomes, scenarios.
-* Switch : 
+* Switch :
 	```javascript
 	let groceryItem = 'papaya';
 
@@ -118,29 +118,29 @@
 	    console.log('Invalid item');
 	    break;
 	}
-	
+
 	// Prints 'Papayas are $1.29'
 	```
 # Fonctions
 
-Specific task multiple times. 
+Specific task multiple times.
 	INPUT & OUTPUT
 Reusable block of code that groups together a sequence of statements to perform specific task.
-In JavaScript, functions are first class objects, this means that like other objects you've encountered, JavaScript functions can have properties and methods. 
+In JavaScript, functions are first class objects, this means that like other objects you've encountered, JavaScript functions can have properties and methods.
 * function declaration : binds a fonction to a name
 		function greetworld { ... }
 			function : function keyword
 			greetworld : identifier
-* hoisting : allow access to function 
+* hoisting : allow access to function
 * écrire une fonction avec "=>"
-```javascript	
+```javascript
 	const square = (num) => {
 		return num*num;
 		}
 ```
 devient :
 
-```javascript	
+```javascript
 	const square=num => num*num;
 ```
 ```javascript
@@ -176,7 +176,7 @@ console.log(myFunction(2, 3)); // 6
 * `[][[x,x]]; const [] []`
 
 * for ... of : iterate on arrays
-```javascript	
+```javascript
 	let arr = [];
 	for (let elem of arr)
 		{
@@ -184,13 +184,13 @@ console.log(myFunction(2, 3)); // 6
 		}
 ```
 * Recursivity : a fonction calls itself
-```javascript	
+```javascript
 	function count (i) {
 	if (i <= 100) {
 	console.log(i);
 		count (i+1)
 	}
-}	
+}
 ```
 # Loops
 * While
@@ -219,4 +219,4 @@ console.log(myFunction(2, 3)); // 6
 
 	busy();
 ```
-* 
+*

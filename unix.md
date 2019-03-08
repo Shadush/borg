@@ -1,5 +1,7 @@
 # Terminal
-## Coventions
+
+### Conventions
+
 - $ : utilisateur avec droits normaux
 - \# : droits root
 - ordre : taille, permissions, date
@@ -18,6 +20,7 @@
 - CTRL + D : pour sortir
 
 ## Commandes
+
 - 	man : manuel
 	- \+ commande : exemple : man ls
 - 	man man
@@ -40,36 +43,27 @@
 	touch -h -t
 - 	cat : regarder à l'intérieur d'un fichier (/!\ binaire)
 		* cat FILE
+		* zcat : regarder une archive compressée
 		* cat -e : (non affichable)($=retour à la ligne)
 		* cat FILE | grep "x" | head -n 1
 		* cat file file 2> erreurs.txt : mettre toutes les erreurs dans ce fichier
 		* cat file file file azert > /dev/null : effacer
-## Flux de redirection
-- echo "x"
-			* > file : crée (s'il n'existe pas ou remplace s'il existe)
-			* >> file : crée ou rajoute à la fin du fichier
-			* 2> file : erreurs dans un fichier à part
-			* 2>&1 : fussioner les sorties standard et d'erreur
-			* 2>>&1 : la même chose mais à la fin du fichierS
-- cat < fichier.txt  : flux entrant. Permet d\'afficher le contenu du
-  fichier
-  - à la différence de `cat fichier.txt` où la commande cat recoit en
-    entrée le nom du fichier et se charge de l'ouvrir et l'affichier.
-    Ici la commande `cat` reçoit le *contenu* de fichier.txt qu'elle
-    contente simplement d'afficher. C'est le shell qui envoie le contenu du
-    fichier à la commande cat.
-
-- << : permet d'envoyer du contenu à une commande
-```
-	$ wc -m << FIN
-	> Combien de caractères dans cette phrase ?
-	> FIN
-	42
-```
 - cp : copier
 	* cp SOURCE DESTINATION
 - mv : déplacer
+- tar -cvf nom_archive.tar nom_dossier/ : créer une archive avec tous les fichiers de mon_dossier
+	* -c : signifie créer une archive tar
+	* -v : signifie afficher le détail des opérations
+	* -f : signifie assembler l'archive dans un fichier
 - `tar -cf file.tar file || tar -cf file.tar *`
+- tar -tf : voir le contenu de l'archive
+	* -rvf : ajouter un fichier
+	* -xvf : extraire les fichiers de l'archive
+- gzip : compresser une archive
+- gunzip : décompresser une archive
+- tar -zcvf tutoriels.tar.gz tutoriels/
+- tar -zxvf tutoriels.tar.gz : décompresser et désarchiver
+- tar -ztf : regarder dans une archive gzippée
 - ln : lien
 - echo
 - more
@@ -105,7 +99,6 @@
 	- find -name "logo.png"
 	- size +10M
 
-
 - locate nom
 	- nom : base de donnée
 	- sudo updatedb : refaire la bdd
@@ -115,18 +108,52 @@
 	- sert à paramètrer les scripts shell
 	- je veux rajouter une variable "LINE=3"
 	- echo $LINE : va donner 3
-
-
-
-
 - faire un : alias ll="ls -lArth"
 	* Pour le rendre permanent, modifier le fichier et relancer votre terminal :
 	* Bash (par défaut sur Ubuntu) : ~/.bashrc
 	* ZSH : ~/.zshrc
+- rsync -arv dossier/ dossier2/ : synchroniser deux dossier
+	- -a : conserve toutes les informations sur les fichiers, comme les droits (chmod), la date de modification, etc. ;
+	- -r : sauvegarde aussi tous les sous-dossiers qui se trouvent dans le dossier à sauvegarder ;
+	- -v : mode verbeux, affiche des informations détaillées sur la copie en cours.
+	- --delete : supprimer fichiers
+	- --backup --backup-dir=/home/user/dossier
 
+### Flux de redirection
 
+- echo "x"
+			* > file : crée (s'il n'existe pas ou remplace s'il existe)
+			* >> file : crée ou rajoute à la fin du fichier
+			* 2> file : erreurs dans un fichier à part
+			* 2>&1 : fussioner les sorties standard et d'erreur
+			* 2>>&1 : la même chose mais à la fin du fichierS
+- cat < fichier.txt  : flux entrant. Permet d\'afficher le contenu du
+  fichier
+  - à la différence de `cat fichier.txt` où la commande cat recoit en
+    entrée le nom du fichier et se charge de l'ouvrir et l'affichier.
+    Ici la commande `cat` reçoit le *contenu* de fichier.txt qu'elle
+    contente simplement d'afficher. C'est le shell qui envoie le contenu du
+    fichier à la commande cat.
 
-## Droits
+- << : permet d'envoyer du contenu à une commande
+```
+	$ wc -m << FIN
+	> Combien de caractères dans cette phrase ?
+	> FIN
+	42
+```
+
+### Programmes en arrière-plan
+
+* COMMANDE& : lancer en arrière plan dans la même console
+* nohup COMMANDE : détacher le processus de la console
+* CTRL+Z : mettre un processus en pause
+* bg : passer processus en arrière plan
+* jobs : quel processus tournent en arrière-plan
+* fg : reprendre un processus en arrière-plan
+	* fg %2 : reprendre le processus numero 2
+
+### Droits
 - chmod : droits
 	* r : read 					- 4
 	* w : write 				- 2
@@ -140,13 +167,26 @@
 			* 644 : juste le lire pour le reste
 				* -> texte, pas besoin d'exécuter, ce n'est pas du binaire
 
+## Exemples
 
+- `rename -n 's/.+/our $i; sprintf("a%d.jpg", 1+$i++)/e' *`
+	- renommer des fichiers à la volée
+- `find . -type d -maxdepth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull origin master \;`
+	-	git pull tous les sous-dossiers
+- `lk='stat -c "%a %n" *'`
+- lm="ls -lArth"
 
+## Scripts Bash
 
+- $# : contient le nombre de paramètres
+- $0 : contient le nom du script exécuté
+- $1 : contient le premier paramètre
+- $2 : contient le second paramètre
 
+## EDITORS
 
-# EDITORS
-## EMACS
+### EMACS
+
 - quitter : crtl+x, ctrl+c
 - save : ctrl+x, ctrl+s
 - back : ctrl+z -> fg
@@ -157,11 +197,8 @@
 	- s'y déplcaer : ctrl+X O
 	- fermer le XX?? : ctrl+X 0
 
+### VIM
 
-
-
-
-## VIM
 * :q - quitter
 * :q! : forcer à quitter
 * :i - insertion
@@ -173,6 +210,13 @@
 * :vs - couper buffer verticalement en deux
 * CTRL+W : passer d'un buffer à l'autre
 * :sp - couper à l'horizontal
+	- Ctrl + w puis Ctrl + w : navigue de viewport en viewport. Répétez l'opération plusieurs fois pour accéder au viewport désiré.
+	- Ctrl + w puis j : déplace le curseur pour aller au viewport juste en dessous.
+	- Ctrl + w puis + : agrandit le viewport actuel.
+	- Ctrl + w puis - : réduit le viewport actuel.
+	- Ctrl + w puis = : égalise à nouveau la taille des viewports.
+	- Ctrl + w puis r : échange la position des viewports. Fonctionne aussi avec « R » majuscule pour échanger en sens inverse.
+	- Ctrl + w puis q : ferme le viewport actuel.
 * h,j,k,l : se déplacer
 * x : effacer lettre
 * dw : au début d'un mot, l'efface
@@ -210,11 +254,3 @@
         * 'is'  'incsearch'   pour montrer les appariements partiels.
         * 'hls' 'hlsearch'    pour mettre en surbrillance les appariements.
 * :débutdecommande - CTRL+D pour suggestions
-
-## Exemples
-- `rename -n 's/.+/our $i; sprintf("a%d.jpg", 1+$i++)/e' *`
-	- renommer des fichiers à la volée
-- `find . -type d -maxdepth 1 -exec git --git-dir={}/.git --work-tree=$PWD/{} pull origin master \;`
-	-	git pull tous les sous-dossiers
-- `lk='stat -c "%a %n" *'`
-- lm="ls -lArth"
