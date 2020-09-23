@@ -118,6 +118,7 @@
 	- -v : mode verbeux, affiche des informations détaillées sur la copie en cours.
 	- --delete : supprimer fichiers
 	- --backup --backup-dir=/home/user/dossier
+- take folder : crée et bascule directement dans un dossier
 
 ### Flux de redirection
 

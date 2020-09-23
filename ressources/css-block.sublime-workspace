@@ -280,10 +280,13 @@
 	"expanded_folders":
 	[
 		"/home/shadush/Code",
-		"/home/shadush/Code/bootcamp"
+		"/home/shadush/Code/bootcamp",
+		"/home/shadush/Code/docu"
 	],
 	"file_history":
 	[
+		"/home/shadush/Bureau/Bases réseaux et TCP-IP version 2017-2018 cours actuel.docx",
+		"/home/shadush/Téléchargements/eng2020.docx",
 		"/home/shadush/Code/docu/git.md",
 		"/home/shadush/Code/docu/unix.md",
 		"/home/shadush/Code/moutains/README.md",
@@ -380,7 +383,7 @@
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -519,7 +522,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -560,7 +563,7 @@
 	"project": "css-block.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
