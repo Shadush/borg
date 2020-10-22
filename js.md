@@ -1,3 +1,4 @@
+
 * bibli: `const readlineSync = require("readline-sync");`
 ```javascript
 	let userName = readlineSync.question('Can you give me your name please?');
@@ -9,20 +10,22 @@
 	}
 ```
 <hr>
+
 * console.log();
 * console.dir(document); : affichier le DOM
 * Commentaires :
 	* `// pour une seule ligne `
 	* `/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */`
 * Data types (7) :
-				- Primitive data :
-									- number : () -> sans ""
-									- string : "..." or '...'
-									- Bolean : true or false
-									- null : intentional absence of value
-									- undefined : absence of value
-									- symbol : unique identifier
-				- Complex : 		- Object : collections of related data
+	 + Primitive data :
+		- number : () -> sans ""
+		- string : "..." or '...'
+		- Bolean : true or false
+		- null : intentional absence of value
+		- undefined : absence of value
+		- symbol : unique identifier
+	+ Complex : 		
+		- Object : collections of related data
 * Opérations arithmétiques :
 							- +
 							- -
