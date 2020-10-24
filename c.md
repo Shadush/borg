@@ -17,6 +17,7 @@
 | "%ld"  | long         |
 | "%f"   | float        |
 | "%f"   | double       |
+| "%c"   | character    |
 
 ## math.h
 

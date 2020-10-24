@@ -32,6 +32,8 @@
 							- *
 							- / : division
 							- % : remainder, reste, modulo
+							- ** : puissance
+* typeof NaN : number
 * Concatenation : appending one string to another
 * Proprety :
 		- length
@@ -86,8 +88,10 @@
 	* > : greater than
 	* <= : less than or equal to
 	* >= : greater than or equal to
-	* === : is equal to
-	* !== : is not equal to
+	* == : equality
+	* === :(strict) is equal to
+	* != : not equal
+	* !== : (strict) is not equal to
 		* -> yes = true, no = false
 ## Logical operators
 * && : and
