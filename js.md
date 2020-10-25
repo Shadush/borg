@@ -1,4 +1,4 @@
-
+# Javascript
 * bibli: `const readlineSync = require("readline-sync");`
 ```javascript
 	let userName = readlineSync.question('Can you give me your name please?');
@@ -52,7 +52,7 @@
 * camelcasing
 		- ex. : myName.Uppercased
 * var myName 	= 'Arya'
-				-> assignement operator. Variable is initialized witg a value of 'Arya'
+				-> assignement operator. Variable is initialized with a value of 'Arya'
 	* /!\ : pas commencer avec un nombre //
 	* case sensitive
 	* cannot be the same as keywords
@@ -63,7 +63,7 @@
 	- if not declared with a value -> SyntaxError
 * parseInt() converts a string to a number
 *
-	* +=
+    * +=
 	* -=
 	* \*=
 	* /=
@@ -83,7 +83,7 @@
 		console.log('xx');
 	}
 ```
-*
+* differences : double checks for equality of value but not equality of type. Coerces both values to the same type then compares them.
 	* < : less than
 	* > : greater than
 	* <= : less than or equal to
@@ -93,6 +93,14 @@
 	* != : not equal
 	* !== : (strict) is not equal to
 		* -> yes = true, no = false
+Falsy statements : 
+    * false
+    * 0
+    * ""(empty string)
+    * null
+    * undefined
+    * NaN
+Truthy statements : everything else!
 ## Logical operators
 * && : and
 * `|| : or`
@@ -108,7 +116,7 @@
 * ternary operator : variable ? console.log('true') : console.log('else');
 * else if : before else. Allow multiple outcomes, scenarios.
 * Switch :
-	```javascript
+```javascript
 	let groceryItem = 'papaya';
 
 	switch (groceryItem) {
@@ -127,7 +135,7 @@
 	}
 
 	// Prints 'Papayas are $1.29'
-	```
+```
 # Fonctions
 
 Specific task multiple times.
@@ -169,9 +177,19 @@ console.log(myFunction(2, 3)); // 6
 * const variables inchangeables. Can be mutable : can change the content but cannot reassign an array or a value
 * let variables : changeables
 # Proprety
-* .length : number of items
-* .pop : remove last item
-* .push : rajoute à la fin
+* Arrays :
+    * .length : number of items
+    * .pop : remove last item
+    * .push : rajoute à la fin
+    * .shift : remove from start
+    * .unshift : add to start
+    * concat : merge arrays
+    * includes : look for a value
+    * indexOf : just like string.indexOf
+    * reverse : reverse an array
+    * slice : copies a portion on an array
+    * splice : removes/replaces elements
+    * sort : sorts an array
 * update une array -> variable [3] = 'mot';
 * new Array
 * parseInt(); renvoi un entier
@@ -200,6 +218,16 @@ console.log(myFunction(2, 3)); // 6
 }
 ```
 # Loops
+* for
+```javascript 
+for (
+        [initialExpression];
+        [condition];
+        [incrementExpression]
+)
+```
+* for of
+* for in
 * While
 * Do While : do it at least once then loop until condition met
 ```javascript
