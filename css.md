@@ -54,7 +54,7 @@
 	- @media only screen and (min-width:320px and (max-width:480px))
 - min-resolution : 300dpi;
 - @media only screen and (min-width:480px), (orientation: landscape)
-		/!\ : virgule
+    - /!\\ : virgule
 - orientation : landscape or portrait
 ## Break Points
 - body : display : grid
@@ -86,4 +86,4 @@
 ```html
 	<video src="*.mp4" width="320" height="240" controls poster="image.jpg">
 	video not supported </video>
-	```
+```

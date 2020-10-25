@@ -22,10 +22,10 @@
 ## math.h
 
 * fabs : valeur absolue d'un nombre **double**
-
-> double absolu = 0, nombre = -27;  
-> absolu = fabs(nombre); // absolu vaudra 27
-
+```c
+double absolu = 0, nombre = -27;  
+absolu = fabs(nombre); // absolu vaudra 27
+```
 * ceil : nombre entier suivant
 * floor : nombre entier précédent
 * pow : puissance d'un nombre
@@ -34,7 +34,7 @@
 * exp : exponentielle
 * log : logarithme
 * log 10
-*
+
 ## Conditions
 
 | Symbole | Signification           |

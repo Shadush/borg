@@ -7,10 +7,10 @@
 - ordre : taille, permissions, date
 - droits : groupe, utilisateur, timestamp, nom
 - convention : COMMAND + FICHIER + 	PARAMÈTRE(S)
-									* -a : un seul tiret
-									* -a -b : plusieurs paramètres l'un après les autres
-									* -ab : combiner plusieurs paramètres
-									* --gelp : paramètres de plusieurs lettres demande deux tirets (-)
+	* -a : un seul tiret
+	* -a -b : plusieurs paramètres l'un après les autres
+    * -ab : combiner plusieurs paramètres
+	* --gelp : paramètres de plusieurs lettres demande deux tirets (-)
 - \| = pipe pour combiner des commandes
 - arborescence : /
 	* ~/ : home directory
@@ -32,22 +32,22 @@
 	* ls -a : fichiers cachés
 - vous pouvez combiner : ls -la
 - cd : se déplacer
-		utiliser seul va dans le home directory (~)
+	+ utiliser seul va dans le home directory (~)
 - cd .. : revenir en arrière
 - cd ../.. : revenir deux dossiers en arrière
 - mkdir : créer un répertoire
 - rm : effacer
 - 	rm -Rf : récursif qui demande pas de confirmations et les sous-répertoires
-	rm -Rf *
+	+ rm -Rf *
 - touch : créer un fichier
-	touch -h -t
+	+ touch -h -t
 - 	cat : regarder à l'intérieur d'un fichier (/!\ binaire)
-		* cat FILE
-		* zcat : regarder une archive compressée
-		* cat -e : (non affichable)($=retour à la ligne)
-		* cat FILE | grep "x" | head -n 1
-		* cat file file 2> erreurs.txt : mettre toutes les erreurs dans ce fichier
-		* cat file file file azert > /dev/null : effacer
+	* cat FILE
+	* zcat : regarder une archive compressée
+	* cat -e : (non affichable)($=retour à la ligne)
+	* cat FILE | grep "x" | head -n 1
+	* cat file file 2> erreurs.txt : mettre toutes les erreurs dans ce fichier
+	* cat file file file azert > /dev/null : effacer
 - cp : copier
 	* cp SOURCE DESTINATION
 - mv : déplacer
@@ -92,7 +92,7 @@
 - ifconfig : informations sur votre réseau
 - inxi -F
 - bc : calculatrice
-	echo "1+2"|bc
+	+ echo "1+2"|bc
 - find
 	- find /usr -name "ls\*" : trouver tous les fichires dans /usr qui commaence par ls
 	- où / quoi / que faire avec
@@ -123,18 +123,14 @@
 ### Flux de redirection
 
 - echo "x"
-			* > file : crée (s'il n'existe pas ou remplace s'il existe)
-			* >> file : crée ou rajoute à la fin du fichier
-			* 2> file : erreurs dans un fichier à part
-			* 2>&1 : fussioner les sorties standard et d'erreur
-			* 2>>&1 : la même chose mais à la fin du fichierS
-- cat < fichier.txt  : flux entrant. Permet d\'afficher le contenu du
-  fichier
-  - à la différence de `cat fichier.txt` où la commande cat recoit en
-    entrée le nom du fichier et se charge de l'ouvrir et l'affichier.
-    Ici la commande `cat` reçoit le *contenu* de fichier.txt qu'elle
-    contente simplement d'afficher. C'est le shell qui envoie le contenu du
-    fichier à la commande cat.
+	* > file : crée (s'il n'existe pas ou remplace s'il existe)
+	* >> file : crée ou rajoute à la fin du fichier
+	* 2> file : erreurs dans un fichier à part
+	* 2>&1 : fussioner les sorties standard et d'erreur
+	* 2>>&1 : la même chose mais à la fin du fichierS
+- cat < fichier.txt  : flux entrant. Permet d\'afficher le contenu du fichier
+  - à la différence de `cat fichier.txt` où la commande cat recoit en entrée le nom du fichier et se charge de l'ouvrir et l'affichier.
+    Ici la commande `cat` reçoit le *contenu* de fichier.txt qu'elle contente simplement d'afficher. C'est le shell qui envoie le contenu du fichier à la commande cat.
 
 - << : permet d'envoyer du contenu à une commande
 ```
@@ -163,10 +159,10 @@
 - 	(123) 		(123) 			(123)
 	vous		même groupe		reste
 - chmod
-			* 000 : aucun droits pour personne
-			* 700 : moi et le reste rien
-			* 644 : juste le lire pour le reste
-				* -> texte, pas besoin d'exécuter, ce n'est pas du binaire
+	* 000 : aucun droits pour personne
+	* 700 : moi et le reste rien
+	* 644 : juste le lire pour le reste
+		* -> texte, pas besoin d'exécuter, ce n'est pas du binaire
 
 ## Exemples
 
@@ -251,7 +247,7 @@
 	* :r !ls
 * R - remplacement
 * Taper  ":set xxx"  active l'option "xxx". Quelques options sont :
-        * 'ic'  'ingnorecase' pour ignorer la casse lors des recherches.
-        * 'is'  'incsearch'   pour montrer les appariements partiels.
-        * 'hls' 'hlsearch'    pour mettre en surbrillance les appariements.
+     * 'ic'  'ingnorecase' pour ignorer la casse lors des recherches.
+     * 'is'  'incsearch'   pour montrer les appariements partiels.
+     * 'hls' 'hlsearch'    pour mettre en surbrillance les appariements.
 * :débutdecommande - CTRL+D pour suggestions

@@ -4,10 +4,10 @@
 * column : set of data values of a  particular type
 * row : single record in a table
 ## Data
-  * integer (entier)
-  * text : text strign
-  * date : yyyy-mm-dd
-  * real : decimal value
+* integer (entier)
+* text : text strign
+* date : yyyy-mm-dd
+* real : decimal value
 * a statement : text that the db recognize as a valid command. ;
 ```sql
 CREATE TABLE table_name (
@@ -16,11 +16,9 @@ CREATE TABLE table_name (
   column_3 data_type
   );
 ```
-* create table : is a clause. Perform specific task. CAPITAL LETTERS. or
-  Command.
+* create table : is a clause. Perform specific task. CAPITAL LETTERS. or Command.
 * table_name : name of the table 
-* `(column (data_type; ...)` : parameter. Lise of columns, data types or
-  values that are passed to a clause as an argument.
+* `(column (data_type; ...)` : parameter. Lise of columns, data types or values that are passed to a clause as an argument.
 ```sql
 INSERT INTO row (column, column, column) (c'est un paramètre)
 VALUES (c'est une clause) (1, 'Name', 2);
@@ -44,7 +42,7 @@ ADD COLUMN twitter_handle TEXT;
 ```sql
 DELETE FROM celebs
 WHERE column IS NULL;
- ```
+```
 * IS NULL : condition
 # Constraints
 * PRIMARY KEY : columns to uniquely identify the rows. PAS DE DOUBLON

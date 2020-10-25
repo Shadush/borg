@@ -5,3 +5,7 @@
 * [JS](js.html)
 * [UNIX](unix.html)
 * [C](c.html)
+* [SQL](sql.html)
+* [Python](python.html)
+
+

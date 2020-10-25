@@ -16,20 +16,20 @@ bien plus encore.
 - git status
 - git add file : (stager)
 - git commit
-			 * --ammend : corriger commentaire
-			 * -m "message" : raccourci pour aller plus vite
-			 * -a (-m) : à la volée
+    * --ammend : corriger commentaire
+	* -m "message" : raccourci pour aller plus vite
+	* -a (-m) : à la volée
 - git add "\*.txt"
 - git add --all
 - .gitignore :
-  ```
+```
   *.tmp
   file
   dossier/*
-  ```
+```
 - git log
-		--stat : résumé
-		-n 2
+	+ --stat : résumé
+	+ -n 2
 - git log --online : sur une seule ligne
 - git log -p "chemin du fichier" : détails des lignes modifiés
 - git rm
@@ -59,14 +59,14 @@ bien plus encore.
 - git rebase (pas utilisé)
 
 - git branch
-				* -d name : supprimer
-				* -D name : annuler
+	* -d name : supprimer
+	* -D name : annuler
 - git stash : mise à côté et sauvegardé
 - git stash apply : recup
 - git stash pop : vider stash
 - git branch -r : list
 - git branch --track branche_local origin/branch_server
-	-> connecté
+	+ -> connecté
 - git checkout -b mabranche
 - git revert 1111
 - git push origin origin : refs/heads/nouvellebranche : ajouter ou supprimer une branche sur le serveur

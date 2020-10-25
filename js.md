@@ -27,42 +27,42 @@
 	+ Complex : 		
 		- Object : collections of related data
 * Opérations arithmétiques :
-							- +
-							- -
-							- *
-							- / : division
-							- % : remainder, reste, modulo
-							- ** : puissance
+	- +
+	- -
+	- *
+	- / : division
+	- % : remainder, reste, modulo
+	- ** : puissance
 * typeof NaN : number
 * Concatenation : appending one string to another
 * Proprety :
-		- length
-			- console.log('Hello'.lenght);
+	- length
+        - console.log('Hello'.lenght);
 								 . -> dot operator
 * Methods :
-			- instance.methodname()
-			- .toUpperCase
-			- .trim
+	- instance.methodname()
+	- .toUpperCase
+	- .trim
 * Objets :
-				* console.log (Math.random());
-				* Math.random()\*50;
-	* arrondi :
-				* Math.floor(Math.random()\*50)
-				* Math.round
+	* console.log (Math.random());
+	* Math.random()\*50;
+        * arrondi :
+			* Math.floor(Math.random()\*50)
+			* Math.round
 * camelcasing
-		- ex. : myName.Uppercased
+	- ex. : myName.Uppercased
 * var myName 	= 'Arya'
-				-> assignement operator. Variable is initialized with a value of 'Arya'
+	- > assignement operator. Variable is initialized with a value of 'Arya'
 	* /!\ : pas commencer avec un nombre //
 	* case sensitive
 	* cannot be the same as keywords
 * let variable = "xxx"
-			 - can be assigned to a different value
+	- can be assigned to a different value
 * on peut utiliser une variable sans rien -> "undefined"
 * const (constant) var. Cannot be reassigned (or else TypeError)
 	- if not declared with a value -> SyntaxError
 * parseInt() converts a string to a number
-*
+* 
     * +=
 	* -=
 	* \*=
@@ -71,7 +71,7 @@
 * operator "+" can combine two strings
 * insert or interpolate variable into strings using `template literals`
 	* Phase 	${MyPet}
-				-> placeholder
+		- > placeholder
 * typeof operator : checks the value to its right and returns or passes back a string of datatype
 # Conditions Statements
 
@@ -94,12 +94,12 @@
 	* !== : (strict) is not equal to
 		* -> yes = true, no = false
 Falsy statements : 
-    * false
-    * 0
-    * ""(empty string)
-    * null
-    * undefined
-    * NaN
+   * false
+   * 0
+   * ""(empty string)
+   * null
+   * undefined
+   * NaN
 Truthy statements : everything else!
 ## Logical operators
 * && : and
@@ -107,10 +107,13 @@ Truthy statements : everything else!
 * ! : not or the bang operator. Inverse
 * while
 * for : 3 expressions seperate by ;
-	init ; stopping condition ; itertation to update
+	> init ; stopping condition ; itertation to update
+```javascript
+
 	for (var i=0 ; i<9 ; i++){
 		str= str+i;
 	}
+```
 * let tool = pen || "xx"
 	// si ce nest pas pen alors ce sera xx
 * ternary operator : variable ? console.log('true') : console.log('else');
@@ -138,14 +141,14 @@ Truthy statements : everything else!
 ```
 # Fonctions
 
-Specific task multiple times.
-	INPUT & OUTPUT
-Reusable block of code that groups together a sequence of statements to perform specific task.
+Specific task multiple times.  
+	INPUT & OUTPUT  
+Reusable block of code that groups together a sequence of statements to perform specific task.  
 In JavaScript, functions are first class objects, this means that like other objects you've encountered, JavaScript functions can have properties and methods.
-* function declaration : binds a fonction to a name
-		function greetworld { ... }
-			function : function keyword
-			greetworld : identifier
+* function declaration : binds a fonction to a name  
+		function greetworld { ... }  
+			function : function keyword  
+			greetworld : identifier  
 * hoisting : allow access to function
 * écrire une fonction avec "=>"
 ```javascript
@@ -254,4 +257,3 @@ for (
 
 	busy();
 ```
-*
