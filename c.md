@@ -1,23 +1,54 @@
-# C
-## Types de variables
+# C : foo, bar, baz
+```c
+#include <stdio.h>
 
-| Nom du type | Minimum       | Maximum        |
-|-------------|---------------|----------------|
-| signed char | -127          | 127            |
-| int         | -32 767       | 32 767         |
-| long        | 2 147 483 647 | -2 147 483 647 |
-| float       | -1 x1037      | 1 x1037        |
-| double      | -1 x1037      | 1 x1037        |
+int main(void)
+{
+    printf("hello world!\n");
+}
+```
+## Types de variables / Data Types
 
+| Nom du type                       | Minimum       | Maximum        |                         |
+|-----------------------------------|---------------|----------------|-------------------------|
+| signed char                       | -127          | 127            | 1 byte(8 bits)          |
+| unsigned char                     | 0             | 255            |                         |
+| (signed) int                      | -32 767       | 32 767         |                         |
+| long (signed) int                 | 2 147 483 647 | -2 147 483 647 | integers 4bytes(32bits) |
+| float (6 chiffres de précision)   | -1 x1037      | 1 x1037        | 4bytes (32 bits)        |
+| double (15 chiffres de précision) | -1 x1037      | 1 x1037        | 8 bytes (64 bits)       |
+
+* void is a type but not a data type. It means it doesn't return a value. More of a placeholder.
+* typedefs : defined types
+### Structures
+* structs
+```c
+typedef struct
+{
+    string name;
+    string dorm;
+}
+student;
+```
+* Good practise : If the `struct` contains as a member a pointer to another such `struct`, declare the `struct` as having a name identical to the type, without using underscores:
+```c
+typedef struct node
+{
+    int n;
+    struct node *next;
+}
+node;
+```
 ## Afficher le contenu d'une variable
 
-| Format | Type attendu |
-|--------|--------------|
-| "%d"   | int          |
-| "%ld"  | long         |
-| "%f"   | float        |
-| "%f"   | double       |
-| "%c"   | character    |
+| Format                 | Type attendu | Rôle             |
+|------------------------|--------------|------------------|
+| "%d"                   | int          | entier           |
+| "%ld", "%li"           | long         | entier signé     |
+| "%f"                   | float        | float            |
+| "%f", "%lf" pour scanf | double       | double           |
+| "%c"                   | character    | character unique |
+| %s                     | char         | string           |
 
 ## math.h
 
@@ -46,9 +77,75 @@ absolu = fabs(nombre); // absolu vaudra 27
 | <=      | est inférieur ou égal à |
 | !=      | est différent de        |
 
+* if ... else
+```c
+int x;
+if (expr)
+{
+    x = 5;
+}
+else
+{
+    x = 6;
+}
+```
+devient
+```c
+int x = (expr) ? 5 : 6;
+```
+* else if
+* switch()
+    * you can remove the break if you need it in certain cases
+        ```c
+switch (n)
+{
+    case -1:
+        printf("n is -1\n");
+        break;
+
+    case 1:
+        printf("n is 1\n");
+        break;
+
+    default:
+        printf("n is neither -1 nor 1\n");
+        break;
+}
+    ```
+* for
+* do ...  while
+
 | Symbole | Signification |
 |---------|---------------|
 | &&      | AND           |
 | \|\|    | OR            |
 | !       | NOT           |
 
+## Loops
+* while
+* do ... while
+* for    
+
+## C
+* dbg : debugger. Add a breakpoint!
+* `int main(int argc, char *argv[])` `int main(int argc, string argv[])`
+    * command-line arguments
+    * argc : argument count, or number of arguments. Integer-type variable will store the number of command-line arguments the user typed when the program was executed.
+    * argv : argument vector (or argument list), an array of strings. This array of strings stores, one string per element, the actual text typed at the command-line when the program executed.
+        * First element : argv[0]. Often the name of the program.
+        * Last element : argv[argc-1]
+* Prototype : fonctions declaration before main()
+* Compiling : 
+    * preprocessing : replace headers by prototypes
+    * compiling : converts it into assembly code
+    * assembling : translates it in binary called machine code
+    * linking : combined the pre-compiled versions of libraries
+* `#include <stdio.h>`
+* fflush(stdin) : après un scanf
+    * efface le buffer, mauvaise pratique
+* pas de goto!
+### Arrays
+* Most variables **are pased by value** in function calls
+* Arrays **are passed by reference**. The callee receives the actual array, *not* a copy of it.
+### Pointers
+* `int *p;`

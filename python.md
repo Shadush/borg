@@ -1,3 +1,4 @@
+# Python
 * print("")
 * EOL : error in syntax
 * NameError : thinks it's a command

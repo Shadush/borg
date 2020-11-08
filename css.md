@@ -6,7 +6,7 @@
 - blockquote : text-indent : -0,8em
 - em = 20px
 
-## CSS
+## CSS : type, class, id
 ![Blocks](ressources/css-block.png)
 - le bloc bleu est le contenu
 - margin :

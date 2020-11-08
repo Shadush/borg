@@ -1,9 +1,57 @@
 * relational db : organize info in one or more tables
+* Four basic operation : 
+    * INSERT
+    * SELECT : extract information from a table
+        * SELECT *columns* FROM *table* (WHERE *condition*) (ORDER BY *column*)
+    * UPDATE
+    * DELETE
+Functions to perform calculations : 
+* AVG
+* COUNT
+* DISTINCT, for getting distinct values without duplicates
+* MAX
+* MIN
+## Operations
+* WHERE, matching on some strict condition
+* LIKE, matching on substrings for text
+* LIMIT
+* GROUP BY
+* ORDER BY
+* JOIN, combining data from multiple tables
+
 ### or relation
 * table : collection of data that organizes info into rows & columns
 * column : set of data values of a  particular type
 * row : single record in a table
 ## Data
+* BLOB, for “binary large object”, raw binary data that might represent files
+
+INTEGER
+* int
+* smallint : 32bits
+* integer : 64 bits
+* tinyint
+* mediumint
+* bigint : fewer than both of those
+
+NUMERIC
+* boolean
+* date
+* datetime
+* `numeric(scale,precision),` which solves floating-point imprecision by using as many bits as needed, for each digit before and after the decimal point
+* time
+* timestamp
+
+REAL
+* decimal:
+* real, for floating-point values : 32 bits
+* double precision, with more bits : 64 bits
+
+TEXT
+* char(n), for an exact number of characters
+* varchar(n), for a variable number of characters, up to a certain limit
+* text
+
 * integer (entier)
 * text : text strign
 * date : yyyy-mm-dd

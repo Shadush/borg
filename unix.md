@@ -27,7 +27,7 @@
 - "q" pour sortir du manuel
 - exit
 - pwd : répertoire courant
-- 	ls : liste des fichiers du répertoire courant (pas les fichiers cachés)
+- ls : liste des fichiers du répertoire courant (pas les fichiers cachés)
 	* ls -l : avec détails
 	* ls -a : fichiers cachés
 - vous pouvez combiner : ls -la
@@ -39,6 +39,7 @@
 - rm : effacer
 - 	rm -Rf : récursif qui demande pas de confirmations et les sous-répertoires
 	+ rm -Rf *
+	+ rmdir : remove empty directories
 - touch : créer un fichier
 	+ touch -h -t
 - 	cat : regarder à l'intérieur d'un fichier (/!\ binaire)
@@ -133,7 +134,7 @@
     Ici la commande `cat` reçoit le *contenu* de fichier.txt qu'elle contente simplement d'afficher. C'est le shell qui envoie le contenu du fichier à la commande cat.
 
 - << : permet d'envoyer du contenu à une commande
-```
+```shell
 	$ wc -m << FIN
 	> Combien de caractères dans cette phrase ?
 	> FIN

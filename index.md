@@ -7,5 +7,7 @@
 * [C](c.html)
 * [SQL](sql.html)
 * [Python](python.html)
+* [HTTP & Web](http.html)
+* [HTML](html.html)
 
 

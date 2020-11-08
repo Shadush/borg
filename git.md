@@ -22,7 +22,7 @@ bien plus encore.
 - git add "\*.txt"
 - git add --all
 - .gitignore :
-```
+```git
   *.tmp
   file
   dossier/*

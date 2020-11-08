@@ -13,6 +13,19 @@
 
 * console.log();
 * console.dir(document); : affichier le DOM
+    * DOM Properties:
+        * innerHTML: holds the HTML inside a set of HTML tags
+        * nodeName: the name of an HTML element or element's attribute
+        * id : the "id" attribute of an HTML element
+        * parentNode : a reference to the node one level up in the DOM
+        * childNodes: an array of references to the nodes one level down in the DOM
+        * attributes: an array attributes of an HTML element
+        * style: an object encapsulating the CSS/HTML styling of an element 
+    * DOM Methods:
+        * getElementById(id): gets the element with a given ID below this point in the DOM
+        * getElementsByTagName(tag): gets all elemnts with the given tag below this point in the DOM
+        * appedChild(node): add the given node to the DOM below this point
+        * removeChild(node): remove the specified child node from the DOM
 * Commentaires :
 	* `// pour une seule ligne `
 	* `/* commentaires sur plusieurs ou une seule  ligne d'ailleurs */`
@@ -39,10 +52,6 @@
 	- length
         - console.log('Hello'.lenght);
 								 . -> dot operator
-* Methods :
-	- instance.methodname()
-	- .toUpperCase
-	- .trim
 * Objets :
 	* console.log (Math.random());
 	* Math.random()\*50;
@@ -146,9 +155,11 @@ Specific task multiple times.
 Reusable block of code that groups together a sequence of statements to perform specific task.  
 In JavaScript, functions are first class objects, this means that like other objects you've encountered, JavaScript functions can have properties and methods.
 * function declaration : binds a fonction to a name  
-		function greetworld { ... }  
-			function : function keyword  
-			greetworld : identifier  
+    > function greetworld() { ... }  
+    function : function keyword  
+    greetworld : identifier, the name  
+* parameter : between parentheses
+    * call it later, it's an argument
 * hoisting : allow access to function
 * écrire une fonction avec "=>"
 ```javascript
@@ -174,8 +185,45 @@ myFunction = (a, b) => {
 
 console.log(myFunction(2, 3)); // 6
 ```
+```js
+const square = function (num){
+        return num*num;
+}
+```
+
 * scopes defines : where variable can be accessed or referenced
 * arrays : []. Index start at zéro 0
+## Methods
+* Methods : functions on objects (properties)
+	- instance.methodname()
+	- .toUpperCase
+	- .trim
+```js
+const math = {
+    multiply : function(x, y){
+        return x * y;
+    },
+    divide : function (x, y){
+        return x / y;
+    },
+    square : function (x){
+        return x * x;
+    }
+};
+```
+shorthand :
+```js
+const math = {
+    blah: "Hi!",
+    add(x, y){
+        return x +y;
+    },
+    multiply(x, y){
+        return x * y;
+    }
+}
+math.add(50, 60)  //110
+```
 # Variables
 * const variables inchangeables. Can be mutable : can change the content but cannot reassign an array or a value
 * let variables : changeables
@@ -229,8 +277,10 @@ for (
         [incrementExpression]
 )
 ```
-* for of
-* for in
+* for of (great for iterating over arrays)  
+    > for (variable of iterable){statement}  
+    > for (let var of variable){console.log(var)}
+* for in : iterating over objects
 * While
 * Do While : do it at least once then loop until condition met
 ```javascript
@@ -256,4 +306,42 @@ for (
 	const busy = announceThatIAmDoingImportantWork;
 
 	busy();
+```
+# HTML
+* document.querySelector('#id').value
+* document.querySelector('form').addEventListener('submit', function) 
+* Event listeners : 
+    * blur
+    * change
+    * click
+    * drag
+    * focus
+    * keyup
+    * load
+    * mousedown
+    * mouseover
+    * mouseup
+    * submit
+    * touchmove
+    * unload
+
+## Ajax
+* XMLHttpRequest
+    * `var xhttp = new XMLHttpRequest();`
+* *onreadystatechange* behavior. Function (anonymous) called when the asynchronous HTTP request has completed. Defines what is expected to change.
+* *readyState* property will change from 0 (request not initiliazed) to 1, 2, 3 and 4 (request finished, response ready)
+    * the status propety will be 200 (OK)
+* Make a asynchonous request using the open() method to define the request and the send() method to actually send it.
+```js
+function ajax_request(argument)
+{
+    var aj = new XMLHttpRequest();
+    aj.onreadystatechange = function() {
+        if (aj.readyState == 4 && aj.status == 200)
+            // do something to the page
+    };
+    
+    aj. open("GET", /* url */, true);
+    aj.send();
+}
 ```
