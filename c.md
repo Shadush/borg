@@ -18,7 +18,7 @@ int main(void)
 | float (6 chiffres de précision)   | -1 x1037      | 1 x1037        | 4bytes (32 bits)        |
 | double (15 chiffres de précision) | -1 x1037      | 1 x1037        | 8 bytes (64 bits)       |
 
-* void is a type but not a data type. It means it doesn't return a value. More of a placeholder.
+* void is a type but not a data type. It means it doesn't return a value. More of a placeholder. Appelés "procédures"
 * typedefs : defined types
 ### Structures
 * structs
@@ -126,7 +126,7 @@ switch (n)
 * do ... while
 * for    
 
-## C
+## C : stdio, stdlib
 * dbg : debugger. Add a breakpoint!
 * `int main(int argc, char *argv[])` `int main(int argc, string argv[])`
     * command-line arguments
@@ -139,6 +139,7 @@ switch (n)
     * preprocessing : replace headers by prototypes
     * compiling : converts it into assembly code
     * assembling : translates it in binary called machine code
+		* into *.o* or *.obj* files
     * linking : combined the pre-compiled versions of libraries
 * `#include <stdio.h>`
 * fflush(stdin) : après un scanf
@@ -147,5 +148,12 @@ switch (n)
 ### Arrays
 * Most variables **are pased by value** in function calls
 * Arrays **are passed by reference**. The callee receives the actual array, *not* a copy of it.
+* `static int variable;` : variable globale propre à ce fichier
+	* variable statique à une fonction à l'intérieur de celle-ci
+	* fonctions locale à un fichier : **penser à mettre à jour les prototypes.**
+* `\0`. Null character. Ends of an array of a string.
+### Headers
+* `#include "protoypes.h"`
 ### Pointers
-* `int *p;`
+* `int *pointer = NULL ;`
+* *%p* dans printf avec **&**variable
