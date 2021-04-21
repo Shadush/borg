@@ -207,15 +207,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/tmp/mozilla_shadush0/Reseaux.odt",
-			"settings":
-			{
-				"buffer_size": 66627,
-				"encoding": "Hexadecimal",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -294,6 +285,8 @@
 	],
 	"file_history":
 	[
+		"/media/sda2/Users/Soufian/MEGA/ECI/Base des réseaux/Exercices_adressage_IPv4_Niveau_3_08-02.docx",
+		"/tmp/mozilla_shadush0/Reseaux.odt",
 		"/home/shadush/Bureau/Bases réseaux et TCP-IP version 2017-2018 cours actuel.docx",
 		"/home/shadush/Téléchargements/eng2020.docx",
 		"/home/shadush/Code/docu/git.md",
@@ -524,37 +517,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/tmp/mozilla_shadush0/Reseaux.odt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 66627,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
